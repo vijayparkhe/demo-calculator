@@ -18,3 +18,8 @@ class TestDemoCalculator(unittest.TestCase):
 
     def test_valid_addition(self):
         print('test_valid_addition')
+
+if __name__ == '__main__':
+    unittest.main()
+
+# in cmd run code for test --> python -m unittest tests/testdemo.py

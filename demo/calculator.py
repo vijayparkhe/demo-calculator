@@ -4,7 +4,7 @@ class Democalculator:
     def addition(self,num1,num2):
         if type(num1) == int and type(num2) == int:
             if num1<0 or num2<0:
-                raise Exception ("Only Positive numbers are allowded")
+                return "Only Positive numbers are allowded"
             else:
                 result = num2+num1
                 return result
